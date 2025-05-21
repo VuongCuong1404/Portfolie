@@ -12,6 +12,15 @@ header {
     padding: 20px;
 }
 
+#portfolio-content {
+    /* Styles for the div wrapping the content for PDF export */
+}
+
+@media print {
+    button {
+        display: none !important;
+    }
+}
 .profile {
     display: flex;
     align-items: center;
@@ -32,9 +41,26 @@ header {
 }
 
 .job {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+}
+
+.job:hover {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px) scale(1.02);
+    background: #f0f8ff;
+}
+
+.job h3 span {
+    transition: color 0.3s, text-shadow 0.3s;
+}
+
+.job h3:hover span {
+    color: #1976d2;
+    text-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
 }
 
 .job:last-child {
@@ -42,9 +68,18 @@ header {
 }
 
 .edu {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
+    transition: box-shadow 0.3s, transform 0.3s;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 20px;
+    background: #f0f0f0;
+}
+
+
+.edu:hover {
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    transform: translateY(-4px) scale(1.02);
+    background: #f0f8ff;
 }
 
 .edu:last-child {
@@ -75,3 +110,4 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
