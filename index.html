@@ -19,6 +19,7 @@
     <button onclick="downloadPDF()" style="margin: 20px 0;">Portfolio as PDF Download</button>
     <!-- ...existing code... -->
 
+
     <div id="portfolio-content">
         <header>
             <div class="profile">
@@ -28,19 +29,29 @@
                     <!-- <p>ITSM | Deutschland</p> -->
                 </div>
             </div>
+
         </header>
 
-        <section class="section" id="contact">
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('info')">Kontaktinfo</button>
+            <button class="tab-btn" onclick="showTab('cv')">Lebenslauf</button>
+        </div>
+        <!-- Kontaktinfo Tab -->
+        <section class="section tab-content" id="info" style="display: block;">
             <h2>Kontaktinformation</h2>
             <ul>
-                <li><strong>Geschlecht:</strong> männlich</li>
+                <!-- <li><strong>Geschlecht:</strong> männlich</li>
                 <li><strong>Nationalität:</strong> deutsch</li>
-                <li><strong>Geburtsdatum/-ort:</strong> 14.04.1987 in Hanoi, Vietnam</li>
+                <li><strong>Geburtsdatum/-ort:</strong> 14.04.1987 in Hanoi, Vietnam</li> -->
                 <li><strong>Email:</strong> vuongcuong144@gmail.com</li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/vuong-cuong-dam-477a891b9"
+                        target="_blank">linkedin.com/in/dam-vuong-cuong-8b0b4a1b6/</a></li>
+                <li><strong>Xing:</strong> <a href="https://www.xing.com/profile/VuongCuong_Dam3/web_profiles"
+                        target="_blank">https://www.xing.com/profile/VuongCuong_Dam3/web_profiles</a></li>
             </ul>
         </section>
 
-        <section class="section" id="experience">
+        <section class="section tab-content" id="cv" style="display: none;">
             <h2>Berufserfahrung</h2>
 
             <div class="job">
@@ -102,7 +113,7 @@
 
         </section>
 
-        <section class="section" id="study">
+        <section class="section tab-content" id="cv" style="display: none;">
             <h2>Ausbildung</h2>
 
             <div class="edu">
@@ -116,16 +127,18 @@
             </div>
         </section>
 
-        <section class="section" id="skills">
+        <section class="section tab-content" id="cv" style="display: none;">
 
             <h2>Zertifikate</h2>
             <div class="cert">
-                <h3>Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn <span>März 2025</span>                </h3>
-                <h3>Jira Service Desk/Management Grundkurs <span>März 2025</span></h3>
-                <h3>SQL lernen <span>Nov. 2024</span></h3>
-                <h3>Grundlagen der Programmierung:Datenbanken <span>Aug 2024</span></h3>
-                <h3>Grundlagen der Programmierung:Basiswissen <span>Juni 2024</span></h3>
-
+                <h3>Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn <span>März
+                        2025</span> </h3>
+                <h3>Jira Service Desk/Management Grundkurs bei LinkedIn <span>März 2025</span></h3>
+                <h3>SQL lernen bei LinkedIn <span>Nov. 2024</span></h3>
+                <h3>Grundlagen der Programmierung:Datenbanken bei LinkedIn <span>Aug 2024</span></h3>
+                <h3>Grundlagen der Programmierung:Basiswissen bei LinkedIn <span>Juni 2024</span></h3>
+                <h3>ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
+                    Berufsausbildung e.V. Berlin <span>Apr 2017</span></h3>
             </div>
 
         </section>
