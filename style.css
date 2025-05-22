@@ -9,8 +9,10 @@ body {
 header {
     background: #002f4b;
     color: white;
-    padding: 40px 20px;      /* Tăng padding cho header */
-    font-size: 1.3rem;       /* Tăng kích thước chữ trong header */
+    padding: 40px 20px;
+    /* Tăng padding cho header */
+    font-size: 1.3rem;
+    /* Tăng kích thước chữ trong header */
 }
 
 #portfolio-content {
@@ -27,12 +29,14 @@ header {
 
 .profile img {
     border-radius: 50%;
-    width: 140px;            /* Tăng kích thước avatar */
+    width: 140px;
+    /* Tăng kích thước avatar */
     height: 140px;
 }
 
 .profile h1 {
-    font-size: 2.4rem;       /* Tăng kích thước tên */
+    font-size: 2.4rem;
+    /* Tăng kích thước tên */
     margin-bottom: 8px;
 }
 
@@ -52,13 +56,13 @@ header {
 }
 
 /* :hover giúp tạo hiệu ứng khi di chuột vào phần tử.
-   .job:hover áp dụng cho toàn bộ khối công việc. */
+   .job:hover áp dụng cho toàn bộ KHỐI (section/div) công việc. */
 
-.job:hover {
+/* .job:hover {
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
     transform: translateY(-4px) scale(1.02);
     background: #f0f8ff;
-}
+} */
 
 .job h3 {
     transition: color 0.3s, text-shadow 0.3s, background 0.3s, padding 0.3s, border-radius 0.3s;
@@ -86,13 +90,13 @@ header {
 }
 
 /* :hover giúp tạo hiệu ứng khi di chuột vào phần tử.
-   .job:hover áp dụng cho toàn bộ khối công việc. */
+   .job:hover áp dụng cho toàn bộ KHỐI (section/div) công việc. */
 
-.edu:hover {
+/* .edu:hover {
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
     transform: translateY(-4px) scale(1.02);
     background: #f0f8ff;
-}
+} */
 
 .edu h3 {
     transition: color 0.3s, text-shadow 0.3s, background 0.3s, padding 0.3s, border-radius 0.3s;

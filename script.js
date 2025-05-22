@@ -17,10 +17,10 @@ function downloadPDF() {
 }
 
 function showTab(tabId) {
-    document.querySelectorAll('.tab-content').forEach(function(tab) {
+    document.querySelectorAll('.tab-content').forEach(function (tab) {
         tab.style.display = 'none';
     });
-    document.querySelectorAll('.tab-btn').forEach(function(btn) {
+    document.querySelectorAll('.tab-btn').forEach(function (btn) {
         btn.classList.remove('active');
     });
     document.getElementById(tabId).style.display = 'block';
