@@ -156,6 +156,10 @@ header {
     /* display: none !important; */
 }
 
+.section.tab-content {
+    transition: all 0.2s;
+}
+
 @media print {
     .tabs {
         display: none !important;
