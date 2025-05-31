@@ -47,134 +47,139 @@ const translations = {
         `,
         cv_section: `
             <h2>Berufserfahrung</h2>
+    <div class="job">
+        <p><strong>GISA GmbH </strong> (Hanoi, Vietnam)
+            <!-- <br> https://gisasolutions.vn/ -->
+            <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/
+            </a>
 
-            <div class="job">
-                <p><strong>GISA GmbH </strong> (Hanoi, Vietnam)
-                    <!-- <br> https://gisasolutions.vn/ -->
-                    <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/
-                    </a>
+        </p>
 
-                </p>
+        <h3>Security and Network Operation Center (SOC & NOC)<span>seit 01.2025</span></h3>
 
-                <h3>Security and Network Operation Center (SOC & NOC)<span>seit 01.2025</span></h3>
+        <h5>Security Operation Center (SOC)</h5>
+        <ul>
+            <li>Überwachung von Sicherheitsereignissen und -vorfällen in Echtzeit.</li>
+            <li>Zusammenarbeit mit dem deutschen NOC-Team zur Behebung von Sicherheitslücken</li>
+        </ul>
 
-                <h5>Security Operation Center (SOC)</h5>
-                <ul>
-                    <li>Überwachung von Sicherheitsereignissen und -vorfällen in Echtzeit.</li>
-                    <li>Zusammenarbeit mit dem deutschen NOC-Team zur Behebung von Sicherheitslücken</li>
-                </ul>
+        <h5>Network Operation Center (NOC)</h5>
+        <ul>
+            <li>Netzwerk- und Serverinfrastrukturüberwachung</li>
+            <li>Verwendung von Tools wie Zabbix</li>
+            <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen</li>
+            <li>Eskalation bei schwerwiegenden Problemen.</li>
+            <li>Protokollierung von Vorfällen und durchgeführten Maßnahmen.</li>
+            <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
+        </ul>
 
-                <h5>Network Operation Center (NOC)</h5>
-                <ul>
-                    <li>Netzwerk- und Serverinfrastrukturüberwachung</li>
-                    <li>Verwendung von Tools wie Zabbix</li>
-                    <li>Schnelle Identifikation und Lösung von Netzwerk- oder Systemstörungen</li>
-                    <li>Eskalation bei schwerwiegenden Problemen.</li>
-                    <li>Protokollierung von Vorfällen und durchgeführten Maßnahmen.</li>
-                    <li>Erstellung von Netzwerk-Dokumentationen und Statusberichten.</li>
-                </ul>
+        <h3>IT Service Management (ITSM) <span>seit 04.2022</span> </h3>
+        <ul>
+            <li>Störungen (Incidents) schnell beheben und den normalen Betrieb wiederherstellen</li>
+            <li>Überwachung und Verwaltung von IT-Service-Anfragen über das Ticketsystem.</li>
+            <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
+            <li>Implementierung, Verwaltung und Wartung von ITSM-Tools.</li>
+            <li>Verwaltung von IT-Assets und Konfigurationsmanagement.</li>
+        </ul>
+    </div>
 
-                <h3>IT Service Management (ITSM) <span>seit 04.2022</span> </h3>
-                <ul>
-                    <li>Störungen (Incidents) schnell beheben und den normalen Betrieb wiederherstellen</li>
-                    <li>Überwachung und Verwaltung von IT-Service-Anfragen über das Ticketsystem.</li>
-                    <li>Zusammenarbeit mit globalen IT-Support-Teams zur Sicherstellung der Servicequalität.</li>
-                    <li>Implementierung, Verwaltung und Wartung von ITSM-Tools.</li>
-                    <li>Verwaltung von IT-Assets und Konfigurationsmanagement.</li>
-                </ul>
-            </div>
+    <div class="job">
+        <p><strong>EXELLIENT GmbH</strong> (Darmstadt, DE)
+            <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
+        </p>
+        <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
+        <p>
+            Unterstützung des Entwicklerteams bei der Erstellung von Webanwendungen.
+            Arbeit mit Frontend-Technologien (HTML, CSS) und Einarbeitung in Angular-Frameworks.
+            Konfiguration und Einsatz von Microsoft SQL-Datenbanken.
+        </p>
+        <ul>
+            <li>Mitarbeit an Frontend-Komponenten mit HTML und CSS.</li>
+            <li>Erste Erfahrungen mit Angular-Frameworks gesammelt.</li>
+            <li>Aufbau und Einrichtung von Microsoft SQL-Datenbanken.</li>
+            <li>Unterstützung des Entwicklerteams bei verschiedenen Aufgaben.</li>
+        </ul>
+    </div>
 
-            <div class="job">
-                <p><strong>EXELLIENT GmbH</strong> (Darmstadt, DE)
-                    <!-- <br>https://www.exellient.de/ -->
-                    <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/
-                    </a>
-                </p>
-                <h3>Software-Entwickler <span>08.2021 – 02.2022</span> </h3>
-                <ul>
-                    <li>Entwicklung von Frontend-Anwendungen mit HTML, CSS und Angular.</li>
-                    <li>Backend-Arbeiten mit Java Spring Boot und Datenbanken.</li>
-                </ul>
-            </div>
 
-            <div class="job">
-                <p><strong>HQ TECH GmbH</strong> (Berlin, DE)
-                    <!-- <br>http://www.hqtech.de/ -->
-                    <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/
-                    </a>
-                </p>
+    <div class="job">
+        <p><strong>HQ TECH GmbH</strong> (Berlin, DE)
+            <!-- <br>http://www.hqtech.de/ -->
+            <br> <a href="http://www.hqtech.de/" target="_blank">http://www.hqtech.de/
+            </a>
+        </p>
 
-                <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
-                <ul>
-                    <li>Überwachung und Wartung von IT-Systemen.</li>
-                    <li>Fehlerbehebung und Systemproblemlösungen.</li>
-                    <li>Entwicklung und Umsetzung optimaler Lösungen.</li>
-                </ul>
-            </div>
+        <h3>IT Support Specialist <span>01.2018 – 01.2019</span></h3>
+        <ul>
+            <li>Überwachung und Wartung von IT-Systemen.</li>
+            <li>Fehlerbehebung und Systemproblemlösungen.</li>
+            <li>Entwicklung und Umsetzung optimaler Lösungen.</li>
+        </ul>
+    </div>
 
-            <!-- </section> -->
+    <!-- </section> -->
 
-            <!-- <secton class="section tab-content" id="cv" style="display: none;"> -->
-            <h2>Ausbildung</h2>
+    <!-- <secton class="section tab-content" id="cv" style="display: none;"> -->
+    <h2>Ausbildung</h2>
 
-            <div class="edu">
-                <h3>Universität Potsdam <span>10.2020 - 03.2021</span> </h3>
-                <p>Bachelor of Science - BS, Informatik/Computational Science </p>
-            </div>
+    <div class="edu">
+        <h3>Universität Potsdam <span>10.2020 - 03.2021</span> </h3>
+        <p>Bachelor of Science - BS, Informatik/Computational Science </p>
+    </div>
 
-            <div class="edu">
-                <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
-                <p>Berufsabschluss als Technische Assistenten mit Fachhochschulreife
-                    <br>Fachrichtung Elektronik und Datentechnik
-                </p>
-            </div>
-            <!-- </section> -->
+    <div class="edu">
+        <h3>Campus Berufsausbildung e.V. Berlin <span>08.2015 - 08.2020</span></h3>
+        <p>Berufsabschluss als Technische Assistenten mit Fachhochschulreife
+            <br>Fachrichtung Elektronik und Datentechnik
+        </p>
+    </div>
+    <!-- </section> -->
 
-            <!-- <section class="section tab-content" id="cv"  style="display: none;"> -->
-            <h2>Fähigkeiten</h2>
-            <div class="skills-row">
-                <div class="skills-col">
-                    <h3>IT-Support</h3>
-                    <ul>
-                        <li>ITSM</li>
-                        <li>Jira Service Desk</li>
-                    </ul>
+    <!-- <section class="section tab-content" id="cv"  style="display: none;"> -->
+    <h2>Fähigkeiten</h2>
+    <div class="skills-row">
+        <div class="skills-col">
+            <h3>IT-Support</h3>
+            <ul>
+                <li>ITSM</li>
+                <li>Jira Service Desk</li>
+            </ul>
 
-                    <h3>Programmiersprachen</h3>
-                    <ul>
-                        <li>Java</li>
-                        <li>HTML/CSS/JavaScript</li>
-                    </ul>
-                </div>
-                <div class="skills-col">
-                    <h3>Datenbanken</h3>
-                    <ul>
-                        <li>SQL Server</li>
-                        <li>SQL Lite</li>
-                    </ul>
-                    <h3>Tools</h3>
-                    <ul>
-                        <li>VS Code</li>
-                        <li>Android Studio</li>
-                        <li>Microsoft SQL Server Management Studio</li>
-                    </ul>
-                </div>
-            </div>
+            <h3>Programmiersprachen</h3>
+            <ul>
+                <li>Java</li>
+                <li>HTML/CSS/JavaScript</li>
+            </ul>
+        </div>
+        <div class="skills-col">
+            <h3>Datenbanken</h3>
+            <ul>
+                <li>SQL Server</li>
+                <li>SQL Lite</li>
+            </ul>
+            <h3>Tools</h3>
+            <ul>
+                <li>VS Code</li>
+                <li>Android Studio</li>
+                <li>Microsoft SQL Server Management Studio</li>
+            </ul>
+        </div>
+    </div>
 
-            <h2>Zertifikate</h2>
+    <h2>Zertifikate</h2>
 
-            <div class="cert">
-                <h3>Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn
-                    <span>März
-                        2025</span>
-                </h3>
-                <h3>Jira Service Desk/Management Grundkurs bei LinkedIn <span>März 2025</span></h3>
-                <h3>SQL lernen bei LinkedIn <span>Nov. 2024</span></h3>
-                <h3>Grundlagen der Programmierung:Datenbanken bei LinkedIn <span>Aug 2024</span></h3>
-                <h3>Grundlagen der Programmierung:Basiswissen bei LinkedIn <span>Juni 2024</span></h3>
-                <h3>ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
-                    Berufsausbildung e.V. Berlin <span>Apr 2017</span></h3>
-            </div>
+    <div class="cert">
+        <h3>Grundwissen Softwareentwicklung,bereitgestellt von Microsoft und LinkedIn bei LinkedIn
+            <span>März
+                2025</span>
+        </h3>
+        <h3>Jira Service Desk/Management Grundkurs bei LinkedIn <span>März 2025</span></h3>
+        <h3>SQL lernen bei LinkedIn <span>Nov. 2024</span></h3>
+        <h3>Grundlagen der Programmierung:Datenbanken bei LinkedIn <span>Aug 2024</span></h3>
+        <h3>Grundlagen der Programmierung:Basiswissen bei LinkedIn <span>Juni 2024</span></h3>
+        <h3>ECDL (Europäischer Computerführerschein) / MS Office, Windows 7, Outlook 2013 bei Campus
+            Berufsausbildung e.V. Berlin <span>Apr 2017</span></h3>
+    </div>
         `
     },
     en: {
@@ -226,19 +231,23 @@ const translations = {
     </div>
 
     <div class="job">
-        <p><strong>EXELLIENT GmbH</strong> (Darmstadt, DE)
+        <p><strong>EXELLIENT GmbH</strong> (Darmstadt, Germany)
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
-        <h3>Software Developer <span>08.2021 – 02.2022</span></h3>
-        <p>Project: Development of an interactive web portal for customer management and reporting.</p>
-        <p><strong>My Role:</strong> Full-Stack Developer</p>
-        <p><strong>Technologies:</strong> HTML, CSS, Angular, Java Spring Boot</p>
-        <p><strong>Results:</strong> Optimization of customer data management and automation of reporting.</p>
+        <h3>Junior Developer Support <span>08.2021 – 02.2022</span></h3>
+        <p>
+            Supported the developer team in building web applications.
+            Worked with frontend technologies (HTML, CSS) and learned Angular frameworks.
+            Configured and deployed Microsoft SQL databases.
+        </p>
         <ul>
-            <li>Frontend development with Angular.</li>
-            <li>Backend work with Java Spring Boot.</li>
-            <li>Database management and performance optimization.</li>
+            <li>Assisted with frontend components using HTML and CSS.</li>
+            <li>Gained initial experience with Angular frameworks.</li>
+            <li>Set up and configured Microsoft SQL databases.</li>
+            <li>Provided technical support for the development team.</li>
         </ul>
+    </div>
+
     </div>
 
     <div class="job">
@@ -358,16 +367,20 @@ const translations = {
         <p><strong>EXELLIENT GmbH</strong> (Darmstadt, Đức)
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
-        <h3>Lập trình viên phần mềm <span>08.2021 – 02.2022</span></h3>
-        <p>Dự án: Phát triển cổng web tương tác cho quản lý khách hàng và báo cáo.</p>
-        <p><strong>Vai trò của tôi:</strong> Lập trình viên Full-Stack</p>
-        <p><strong>Công nghệ:</strong> HTML, CSS, Angular, Java Spring Boot</p>
-        <p><strong>Kết quả:</strong> Tối ưu hóa quản lý dữ liệu khách hàng và tự động hóa báo cáo.</p>
+        <h3>Hỗ trợ phát triển phần mềm (Junior Developer Support) <span>08.2021 – 02.2022</span></h3>
+        <p>
+            Hỗ trợ nhóm phát triển trong việc xây dựng các ứng dụng web.
+            Làm việc với HTML, CSS và tìm hiểu thêm về Angular.
+            Tham gia cài đặt và triển khai cơ sở dữ liệu Microsoft SQL.
+        </p>
         <ul>
-            <li>Phát triển giao diện người dùng với Angular.</li>
-            <li>Làm backend với Java Spring Boot.</li>
-            <li>Quản lý cơ sở dữ liệu và tối ưu hiệu suất.</li>
+            <li>Hỗ trợ phát triển giao diện bằng HTML và CSS.</li>
+            <li>Học hỏi và thực hành cơ bản với Angular.</li>
+            <li>Cấu hình và triển khai Microsoft SQL Database.</li>
+            <li>Hỗ trợ kỹ thuật cho nhóm phát triển.</li>
         </ul>
+    </div>
+
     </div>
 
     <div class="job">
