@@ -230,9 +230,14 @@ const translations = {
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
         <h3>Software Developer <span>08.2021 – 02.2022</span></h3>
+        <p>Project: Development of an interactive web portal for customer management and reporting.</p>
+        <p><strong>My Role:</strong> Full-Stack Developer</p>
+        <p><strong>Technologies:</strong> HTML, CSS, Angular, Java Spring Boot</p>
+        <p><strong>Results:</strong> Optimization of customer data management and automation of reporting.</p>
         <ul>
-            <li>Developing frontend applications with HTML, CSS, and Angular.</li>
-            <li>Backend work with Java Spring Boot and databases.</li>
+            <li>Frontend development with Angular.</li>
+            <li>Backend work with Java Spring Boot.</li>
+            <li>Database management and performance optimization.</li>
         </ul>
     </div>
 
@@ -320,7 +325,6 @@ const translations = {
     `,
         cv_section: `
     <h2>Kinh nghiệm làm việc</h2>
-
     <div class="job">
         <p><strong>GISA GmbH</strong> (Hà Nội, Việt Nam)
             <br> <a href="https://www.gisa.de/" target="_blank">https://www.gisa.de/</a>
@@ -355,9 +359,14 @@ const translations = {
             <br> <a href="https://www.exellient.de/" target="_blank">https://www.exellient.de/</a>
         </p>
         <h3>Lập trình viên phần mềm <span>08.2021 – 02.2022</span></h3>
+        <p>Dự án: Phát triển cổng web tương tác cho quản lý khách hàng và báo cáo.</p>
+        <p><strong>Vai trò của tôi:</strong> Lập trình viên Full-Stack</p>
+        <p><strong>Công nghệ:</strong> HTML, CSS, Angular, Java Spring Boot</p>
+        <p><strong>Kết quả:</strong> Tối ưu hóa quản lý dữ liệu khách hàng và tự động hóa báo cáo.</p>
         <ul>
-            <li>Phát triển ứng dụng frontend với HTML, CSS và Angular.</li>
-            <li>Làm backend với Java Spring Boot và cơ sở dữ liệu.</li>
+            <li>Phát triển giao diện người dùng với Angular.</li>
+            <li>Làm backend với Java Spring Boot.</li>
+            <li>Quản lý cơ sở dữ liệu và tối ưu hiệu suất.</li>
         </ul>
     </div>
 
@@ -436,3 +445,7 @@ function setLanguage(lang) {
         }
     });
 }
+
+// document.addEventListener('DOMContentLoaded', function() {
+//     setLanguage('de'); // hoặc 'en' hoặc 'vi' nếu muốn mặc định ngôn ngữ khác
+// });
