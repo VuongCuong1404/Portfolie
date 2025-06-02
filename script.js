@@ -16,13 +16,17 @@ function downloadPDF() {
     });
 }
 
-function showTab(tabId) {
+function showTab(tabId, event) {
+
+    // Ẩn tất cả các tab và bỏ chọn các nút
     document.querySelectorAll('.tab-content').forEach(function (tab) {
         tab.style.display = 'none';
     });
     document.querySelectorAll('.tab-btn').forEach(function (btn) {
         btn.classList.remove('active');
     });
+
+    // const event = window.event;
     document.getElementById(tabId).style.display = 'block';
     event.currentTarget.classList.add('active');
 }

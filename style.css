@@ -47,7 +47,8 @@ header {
     border-radius: 8px;
 }
 
-.job {
+.job,
+.edu {
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 8px;
     padding: 16px;
@@ -64,12 +65,14 @@ header {
     background: #f0f8ff;
 } */
 
-.job h3 {
+.job h3,
+.edu h3 {
     transition: color 0.3s, text-shadow 0.3s, background 0.3s, padding 0.3s, border-radius 0.3s;
     cursor: pointer;
 }
 
-.job h3:hover {
+.job h3:hover,
+.edu h3:hover {
     color: #72b7f7;
     background: #e3f2fd;
     text-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
@@ -81,13 +84,13 @@ header {
     border-bottom: none;
 }
 
-.edu {
+/* .edu {
     transition: box-shadow 0.3s, transform 0.3s;
     border-radius: 8px;
     padding: 16px;
     margin-bottom: 20px;
     background: #f0f0f0;
-}
+} */
 
 /* :hover giúp tạo hiệu ứng khi di chuột vào phần tử.
    .job:hover áp dụng cho toàn bộ KHỐI (section/div) công việc. */
@@ -98,18 +101,18 @@ header {
     background: #f0f8ff;
 } */
 
-.edu h3 {
+/* .edu h3 {
     transition: color 0.3s, text-shadow 0.3s, background 0.3s, padding 0.3s, border-radius 0.3s;
     cursor: pointer;
-}
+} */
 
-.edu h3:hover {
+/* .edu h3:hover {
     color: #72b7f7;
     background: #e3f2fd;
     text-shadow: 0 2px 8px rgba(25, 118, 210, 0.15);
     padding: 2px 10px;
     border-radius: 6px;
-}
+} */
 
 .edu:last-child {
     border-bottom: none;
@@ -239,13 +242,14 @@ footer {
     }
 
     .profile img {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        /* Giảm kích thước avatar */
+        height: 80px;
     }
 
     .skills-row {
         flex-direction: column;
-        gap: 20px;
+        gap: 16px;
     }
 
     .tabs {
@@ -258,15 +262,18 @@ footer {
         padding: 16px;
     }
 
-    h1 {
-        font-size: 1.8rem;
+    h1,
+    h2,
+    h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
     }
 
-    h2 {
+    /* h2 {
         font-size: 1.4rem;
     }
 
     h3 {
         font-size: 1.1rem;
-    }
+    } */
 }
