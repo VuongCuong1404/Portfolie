@@ -11,7 +11,7 @@ function downloadPDF() {
         html2canvas: { scale: 2 },
         jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
     }).from(element).save().then(() => {
-        // Hiện lại tabs sau khi xuất PDF
+        // Hiển thị lại tabs sau khi xuất PDF
         if (tabs) tabs.style.display = '';
     });
 }
@@ -463,6 +463,7 @@ function setLanguage(lang) {
     });
 }
 
+// when the document is loaded, set the language to 'en' by default
 // document.addEventListener('DOMContentLoaded', function() {
-//     setLanguage('de'); // hoặc 'en' hoặc 'vi' nếu muốn mặc định ngôn ngữ khác
+//     setLanguage('de'); // hoặc 'en' hoặc 'vi'
 // });
