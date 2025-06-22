@@ -3,6 +3,14 @@ function downloadPDF() {
     var tabs = document.querySelector('.tabs');
     if (tabs) tabs.style.display = 'none';
 
+    // Hiện tất cả các tab-content trước khi xuất PDF
+    var tabContents = document.querySelectorAll('.tab-content');
+    var prevDisplay = [];
+    tabContents.forEach(function(tab) {
+        prevDisplay.push(tab.style.display);
+        tab.style.display = 'block';
+    });
+
     const element = document.getElementById('portfolio-content');
     html2pdf().set({
         margin: 0.5,
@@ -13,6 +21,10 @@ function downloadPDF() {
     }).from(element).save().then(() => {
         // Hiển thị lại tabs sau khi xuất PDF
         if (tabs) tabs.style.display = '';
+        // Khôi phục trạng thái hiển thị ban đầu của các tab-content
+        tabContents.forEach(function(tab, i) {
+            tab.style.display = prevDisplay[i];
+        });
     });
 }
 
