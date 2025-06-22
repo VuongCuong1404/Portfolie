@@ -6,7 +6,7 @@ function downloadPDF() {
     // Hiện tất cả các tab-content trước khi xuất PDF
     var tabContents = document.querySelectorAll('.tab-content');
     var prevDisplay = [];
-    tabContents.forEach(function(tab) {
+    tabContents.forEach(function (tab) {
         prevDisplay.push(tab.style.display);
         tab.style.display = 'block';
     });
@@ -22,7 +22,7 @@ function downloadPDF() {
         // Hiển thị lại tabs sau khi xuất PDF
         if (tabs) tabs.style.display = '';
         // Khôi phục trạng thái hiển thị ban đầu của các tab-content
-        tabContents.forEach(function(tab, i) {
+        tabContents.forEach(function (tab, i) {
             tab.style.display = prevDisplay[i];
         });
     });
@@ -152,7 +152,13 @@ const translations = {
     <!-- </section> -->
 
     <!-- <section class="section tab-content" id="cv"  style="display: none;"> -->
-    <h2>Fähigkeiten</h2>
+    <h2>Kenntnisse</h2>
+                <h4>Sprachkenntnisse</h4>
+            <ul>
+                Deutsch (Gute Kenntnisse), Englisch (Grundkenntnisse), Vietnamesisch (Gute Kenntnisse)
+            </ul>
+
+            <h4>IT-Kenntnisse</h4>
     <div class="skills-row">
         <div class="skills-col">
             <h3>IT-Support</h3>
@@ -290,6 +296,12 @@ const translations = {
     </div>
 
     <h2>Skills</h2>
+                <h4>Languageskill</h4>
+            <ul>
+                German (Good knowledge), Englisch (Basic knowledge), Vietnamese (Good knowledge)
+            </ul>
+
+            <h4>IT-skill</h4>
     <div class="skills-row">
         <div class="skills-col">
             <h3>IT Support</h3>
@@ -423,6 +435,12 @@ const translations = {
     </div>
 
     <h2>Kỹ năng</h2>
+                <h4>Ngôn ngữngữ</h4>
+            <ul>
+                Tiếng Đức (Tốt), Tiếng Anh (Cơ bản), Tiếng Việt (Tốt)
+            </ul>
+
+            <h4>Ký năng ITIT</h4>
     <div class="skills-row">
         <div class="skills-col">
             <h3>Hỗ trợ CNTT</h3>
